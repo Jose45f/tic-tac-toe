@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body style="background-image: url('https://media.istockphoto.com/illustrations/modern-red-black-white-abstract-presentation-background-with-concept-illustration-id1353713128?k=20&m=1353713128&s=612x612&w=0&h=9hvYIJMKsFin3-t22NEjbtc_RBU4zFLr6QbSHhzWCpQ='); background-repeat: no-repeat;
+background-attachment: fixed; background-size: cover;">
+
+<!--navbar for aesthetic purposes. Will reset/ refresh page but can get same outcome from reset btn in container. -->
+
+  <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Jose's Week 11 Assignment</a>
+    <a class="btn btn-danger" href="https://github.com/Jose45f" target="_blank">Repo</a>
+  </nav>
+
+
+<div class="container">
+  <h1 class="title">Tic <span>-Tac</span>-Toe</h1>
+  <div class="status-action">
+    <div class="reset">Reset</div>
+    <br>Hope you enjoy!
+    <div class="turn"> <span>X</span> is next</div>
+  </div>
+  <!--still the same container(just clear) but below is the grid-->
+  <!--br is just for a bit of space between text and grid within container.-->
+  <br>
+  <div class="row">
+  <div class="top-left col-sm-4 margin btn-outline-danger"></div>
+  <div class="top-mid col-sm-4 margin btn-outline-dark"></div>
+  <div class="top-right col-sm-4 margin btn-outline-danger"></div>
+  <div class="md-left col-sm-4 margin btn-outline-dark"></div>
+  <div class="md-mid col-sm-4 margin btn-outline-danger"></div>
+  <div class="md-right col-sm-4 margin btn-outline-dark"></div>
+  <div class="btm-left col-sm-4 margin btn-outline-danger"></div>
+  <div class="btm-md col-sm-4 margin btn-outline-dark"></div>
+  <div class="btm-right col-sm-4 margin btn-outline-danger"></div>
+</div>
+</div>
+
+
+      <script src="node_modules/jquery/dist/jquery.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
+    <script src="app.js"></script>
+</body>
+</html>

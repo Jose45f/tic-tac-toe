@@ -1,0 +1,56 @@
+.navbar {
+  justify-content: center;
+}
+  .container {
+    border-radius: 25px;
+    justify-content: center;
+  }
+
+  .margin {
+   border-style: solid ;
+   border-color: rgba(0, 0, 0, 0.8);
+   color: rgb(0, 0, 0);
+   height: 150px;
+   width: 150px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.title {
+  margin-top: 100px;
+ text-align: center;
+}
+.title span{
+  color: rgb(210, 0, 0);
+}
+
+.status-action {
+ display: flex;
+  margin-top: 25px;
+  font-size: 25px;
+  justify-content: center;
+}
+
+  .reset:hover {
+    color: rgb(185, 0, 0);
+    transform: translateY(-15px);
+  }
+
+.O::after {
+  content: "●";
+  font-size: 75px;
+  font-style: oblique;
+
+
+}
+
+.X::after {
+  content: "❌";
+  font-size: 75px;
+  font-style: oblique;
+}
+
+.turn span {
+  color:rgb(210, 0, 0);
+}
